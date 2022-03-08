@@ -1,0 +1,109 @@
+/* import bg from './assets/img/01.png'; */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #Fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero{
+    background-image: url('./assets/img/01.jpg');
+    min-height: 100vh;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 20px;
+    border-bottom: 1px solid rgb(255, 250, 250);
+
+}
+.inner-hero{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.logo{
+    height: 150px;
+    cursor: pointer;
+}
+.logo-title{
+color: #ca9734;
+font-weight: normal;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+}
+.info{
+    background: rgba(0,0,0,.15);
+    color: #fff;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.calc{
+    background: rgba(0,0,0,.15);
+    color: #fff;
+    width: 30%;
+    padding: 20px;
+}
+select , .input{
+    background: rgba(0,0,0,.15);
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ca9734;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding-left: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+select .option{
+    background-color: transparent !important;
+    height: 50px !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: #a6a7aa !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+button{
+    width: 200px;
+    padding: 15px;
+}
+.calc-inner{
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.mb , .aks , .hs, .ishonch, .calc-inner{
+    display: none;
+}
+
+.info-inner{
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-inner img{
+    width: 250px;
+}
+
+mark{
+    font-weight: bold;
+}
