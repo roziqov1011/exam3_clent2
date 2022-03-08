@@ -5,7 +5,7 @@ import mb from './assets/img/mb.png';
 import aks from './assets/img/aks.png';
 import hs from './assets/img/hs.png';
 import ishonch from './assets/img/ishonch.png';
-const PORT =  'https://exam-3-server-3p5sy.ondigitalocean.app';
+const PORT =  'https://exam3server.herokuapp.com';
 
 
 function App() {
